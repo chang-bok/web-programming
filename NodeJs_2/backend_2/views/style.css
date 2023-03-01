@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+/* @font-face {
+  font-family : '이쁜폰트';
+  src : url(./font/BMJUA_ttf.ttf)
+} */
+body {
+  /* font-family : '이쁜폰트'; */
+  font-family : 'Jeju Gothic', sans-serif;
+  line-height: 1.8;
+  font-weight: bolder;
+  }
+
+a {
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:hover {
+  background-color: #cd853f;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: block;
+  }
+  nav, main, footer {
+    border: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  align-content: center;
+}
+td {
+  padding: 10px;
+}
+td:hover { background-color: #ffff00; }
+
